@@ -4,7 +4,7 @@ import joblib
 
 model = joblib.load("fraud_detection_pipeline.pkl")
 
-st.title("Fraud Detection Predection App")
+st.title("💳 Credit Card Fraud Detection System")
 
 st.markdown("Please enter the transaction detailes and use the predict button")
 
